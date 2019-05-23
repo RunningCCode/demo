@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 第一种逆向工程xml配置 -->
+<configuration>
+
+    <!-- 数据库链接URL、用户名、密码 -->
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                    connectionURL="jdbc:mysql://localhost:3306/i_wenyiba_com?useUnicode=true&amp;characterEncoding=utf8"
+                    userId="root"
+                    password="">
+        <abc>2</abc>
+    </jdbcConnection>
+
+    <table tableName="u_user" domainObjectName="User" tempPath="E:\soft\ideaWork\yqj\mavenproject\mgr\generationCode\resources\generationCode\ftl">
+        <property tempName="model.ftl" dec="实体类" targetPath="E:\soft\ideaWork\yqj\mavenproject\mgr\commonDao\src\main\java\yqj\mavenproject\commonDao\model"/>
+        <property tempName="mapper.ftl" dec="mapper配置文件" targetPath="E:\soft\ideaWork\yqj\mavenproject\mgr\commonDao\src\main\resources\commonDao\mappers"/>
+    </table>
+
+
+</configuration>
